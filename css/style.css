@@ -1,0 +1,79 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*alert*/
+
+.menu {
+  background: #f8f9fa;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  color: #83848c;
+}
+
+.alert {
+  width: 100%;
+}
+
+/*Form*/
+
+.form-comments {
+  padding: 0;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  padding: 0 20px;
+}
+
+#InputName {
+  margin-bottom: 14px;
+}
+
+#FormControlTextarea {
+  margin-bottom: 14px;
+}
+
+.title {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px 0 10px 20px;
+}
+
+/*Card-comments*/
+
+.image-block {
+  padding: 0 10px 0 10px;
+  min-width: 40px;
+}
+
+.user-img {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #83848c;
+}
+
+.card-comments {
+  flex-direction: column;
+}
+
+.card-comments__userName {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.card-comments__date {
+  font-size: 12px;
+}
+
+.card-comments__text {
+  font-size: 14px;
+}
